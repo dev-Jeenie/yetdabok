@@ -7,3 +7,5 @@ export const StlyedContentBox = styled.div`
   top: 0;
   bottom: 0; */
 `;
+
+export const StyledModal = styled.div``
