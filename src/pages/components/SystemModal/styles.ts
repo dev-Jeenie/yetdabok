@@ -10,11 +10,14 @@ export const StyledModalBox = styled(Box)`
   box-shadow: 1px 1px 7px 1px rgb(98 83 118);
 `;
 
-export const StyledSystemButton = styled(Button)<{ maxWidth?: number }>`
+export const StyledSystemButton = styled(Button)<{
+  maxWidth?: number;
+  color?: string;
+}>`
   && {
     border-radius: 0;
     /* background: transparent; */
-    background: #ab90d0;
+    background: ${({ color = "#ab90d0" }) => color};
     /* border: 1px solid; */
     width: 100%;
     ${({ maxWidth }) => `${maxWidth ? `max-width:${maxWidth}px;` : ""}`}

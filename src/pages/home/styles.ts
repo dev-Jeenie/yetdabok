@@ -1,3 +1,4 @@
+import { Button } from "@mui/material";
 import styled from "styled-components";
 
 export const StlyedContentBox = styled.div`
@@ -8,4 +9,6 @@ export const StlyedContentBox = styled.div`
   bottom: 0; */
 `;
 
-export const StyledModal = styled.div``
+export const StyledModal = styled.div``;
+
+export const StyledPageButton = styled(Button)``;
